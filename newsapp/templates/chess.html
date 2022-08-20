@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CHESS </title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.101.0">
+        <title> PATRICIAN NEWS </title>
+    
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+        
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        
+     {% load static %}   
+    
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+        <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+    
+    
+        <style>
+          .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+          }
+    
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+    
+          .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+          }
+    
+          .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+          }
+    
+          .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+          }
+    
+          .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+          }
+    
+          .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+          }
+        </style>
+    
+    </head>
+    
+    
+    <body>    
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4><a href= "{% url 'about'%}" class="text-white">About</a></h4>
+              ">"
+              <p class="text-muted">Patrician News of India, established in 2001, is a Christian minority Informational self-financing News Firm affiliated to the Government Of India.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href= "{% url 'home' %}" class="navbar-brand d-flex align-items-center">
+            <strong>NEWS APP</strong>
+          </a>
+          <a href='{{request.META.HTTP_REFERER}}' class="navbar-brand d-flex align-items-center"><strong>back to Home</strong></a>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    <main class="container">
+          <div class="col-md-6 px-0">
+        </div>
+      
+            <article class="blog-post">
+              <h1 class="blog-post-title mb-1">How did India pull off a successful Chess Olympiad?</h1>
+              <p class="blog-post-meta">January 1, 2021 </p>
+      
+              <h2 itemprop="description" class="synopsis">India's first Chess Olympiad is being held at Poonjeri Village in Tamil Nadu's Mamallapuram, a UNESCO heritage site. Officials and chess wizards from 187 countries are brainstorming there.
+            </h2>
+              <hr>
+              <center>
+                  <img src="{% static 'images/chess1.jpg' %}" alt="gst info " width="640" height="356" data-lazy-loaded="true" style="">
+            </center>
+              <p>Not the big fancy sporting hubs of Chennai or Delhi, but a town famous for its tourism and historical spectacles, Mamallapuram is hosting the Chess Olympiad. Located about 50-km from Chennai, this is the second big event the Tamil Nadu’s coastal town has anchored in recent times. The first being a political one -- an informal summit between Prime Minister Modi and Chinese President Xi Jinping two years ago.</p>
+              <p>Mamallapuram’s excellent transport connectivity, handful of luxury star hotels and resorts with beach facing rooms to incorporate influx of VVIPs, and the historical importance worked in favour of the seaport town. Also the relatively calmer environment, as compared to the big cities, meant that players, after the games, would relax in the lap of nature.</p>
+                <p>After the event was pulled out of Russia due to the Ukraine war, the All India Chess Federation (AICF) sniffed an opportunity. With no financial backing or sponsors at the time, the federation went out of its way to show its interest in hosting the event.</p>
+              <p>But, to host an international event of such a scale-- that usually takes years to organise-- the AICF was racing against the time. This is where the state and central government authorities stepped in. The Tamil Nadu government backed the federation by guaranteeing $10 million to put up a bid in the first place. Together, the state and the centre have allocated Rs 100 crore for the event. The Central ministries wasted no time in clearing the visas for players from over 180 countries.</p>
+              <p>India’s international standing in the world of chess also helped. In the last eight years, Indian chess grandmasters have more than doubled to 75. India has the world’s largest chess-playing population with 33,000 internationally rated players. Despite several controversies and infightings, the Chess federation came out with flying colours in a nurturing long-term Chess ecosystem.</p>
+              <p>The 44th edition of the Chess Olympiad, which is held every two years, has a record participation with 343 teams from 187 countries. Six Indian teams are competing in the Olympiad – three in each section. Five-time world champion Viswanathan Anand opted not to play in the Olympiad and has taken over the mentor role for youngsters in the Indian side.</p>
+              <center>
+                <img src="{% static 'images/chess2.jpg' %}" alt="gst info" width="500" height="356" data-lazy-loaded="true" style="">
+          </center>
+              <p>To accommodate over 2,000 players in the mix, the national chess Federation moved proactively at breakneck speed to rope in major sponsors. In addition, the AICF worked out subsidies for national federations, which lacked the resources to send teams.</p>
+              <p>A successful Chess Olympiad will for sure put India on a high pedestal, showcasing its abilities to host such events of scale, and hopefully more such events will follow. It will also help make chess become more mainstream.</p>
+      
+      </main>
+
+      <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Back to top</a><br>
+            <a href="{{request.META.HTTP_REFERER}}" >Back to Home</a>
+          </p>
+        </div>
+      </footer>
+    </body>
+</html>
